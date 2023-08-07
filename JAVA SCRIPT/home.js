@@ -21,3 +21,5 @@
 //           next.children(':first-child').clone().appendTo($(this));
 //         }
 //   });
+
+// ------------------slider-----------

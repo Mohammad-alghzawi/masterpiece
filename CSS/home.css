@@ -47,13 +47,19 @@ justify-content: center;
 .Categories-name {
     position: relative;
     margin-left: 72px;
+    top: 52px;
+    font-weight: bold;
+}
+.img-fluid{
+    height: 200px;
 }
 .btn-primary{
-    margin-left: 50px;
+    margin-left: 44px;
     margin-top: 30px;
 }
 .card-img-top{
     height: 200px;
+   
 }
 .btn{
     background-color: #A0C49D;
@@ -62,10 +68,12 @@ justify-content: center;
 .btn:hover{
   background-color:#badeb7;
 }
-.font-weight-normal{
+.font-weight-bold{
     font-size: 20px;
     margin-left: 85px;
+    margin-top: 70px;
 }
+
 .cont{
     display: flex;
     justify-content: space-evenly;
@@ -86,7 +94,101 @@ justify-content: center;
     border: #A0C49D;
     border-radius: 5px;
     color: white;
+    height: 40px;
 }
+.ourstory{
+    margin-left: 90px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.icon{
+    font-weight: bold;
+}
+
+
+
+.ourservices-name{
+    margin-top: 80px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+.services{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.fa-cart-flatbed  {
+    color: #A0C49D;
+    font-size: 20px;
+}
+.fa-lock{
+    color: #A0C49D;
+    font-size: 20px;
+}
+.fa-face-smile{
+    color: #A0C49D;
+    font-size: 20px;
+}
+.card{
+    background-color: bisque;
+}
+
+.flexb{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    column-gap:5%;
+    
+}
+.col-md-4{
+    max-width: 100% !important;
+}
+/* ----------------footer---------------------------- */
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+    background-color: #A0C49D;
+    height: 200px;
+    justify-content: space-between;
+    
+}
+.footer img{
+    width: 26%;
+    margin-bottom: 20px;
+    margin-left: 133px;
+    font-weight: bold;
+}
+.right{
+    margin-top: 29px;
+    font-size: 13px;
+    padding-left: 200px;
+    
+}
+.left{
+    margin-left: 135px;
+    margin-top: 51px;
+    font-size: 20px;
+}
+.middle{
+    margin-top: 51px;
+    font-size: 30px;
+    padding-left: 200px;
+}
+.fa-brands{
+    width:30px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.fa-copyright{
+    margin-left: 100px;
+}
+
+
+
 
 
 

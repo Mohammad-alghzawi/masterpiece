@@ -186,7 +186,9 @@ ul {
 
 strong{ font-weight:600;}
 
-
+.sale{
+	height: 100%;
+}
 
 /*columns*/
 .top-header{

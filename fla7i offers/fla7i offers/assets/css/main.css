@@ -12,7 +12,18 @@ Version: 1.0
 
 ----------------------------------------------------------------------------- */
 /* ----------most siller--------- */
+.linkhome{
+  background-color: #F28123;
+    border-radius: 6px;
+    color: white;
+    border-color: #F28123;
+     margin-left: 100px;
 
+}
+.linkhome:hover{
+  background-color: black;
+  color:#F28123;
+}
 
 .img-fluid{
   height: 200px;

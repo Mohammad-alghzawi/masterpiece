@@ -47,6 +47,10 @@
 
 <body>
 <!-- header start -->
+<div style="background-image: url(../assets/img/cart1.jpg); height: 50vh; background-size: cover;text-align: center; padding-top: 220px; font-size: 30px;">
+<a href="../index_2.html" style="color: white;"><i class="fa-solid fa-house" style="color: #ec8d09;"></i> Home</a>
+</div>
+
 
 <!-- header end -->
  
@@ -187,13 +191,13 @@
                                             Profile <i class="fa-solid fa-user"></i>
                                         </button>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <button data-bs-toggle="tab" data-bs-target="#tab_settings" type="button" role="tab" aria-selected="false">
                                             Settings <i class="fa-solid fa-gear"></i>
                                         </button>
-                                    </li>
+                                    </li> -->
                                     <li class="w-100">
-                                        <a href="#">Logout</a>
+                                        <a href="../login-signup.html">Logout</a>
                                     </li>
                                 </ul>
                             </div>
@@ -205,7 +209,7 @@
                                         <div class="col col-lg-4">
                                             <div class="funfact_item" style="background-image: url('../adminDashbard/images/funfact_bg_1.png');" data-aos="fade-up" data-aos-duration="1000">
                                                 <div class="item_content">
-                                                    <h3>Total Courses</h3>
+                                                    <h3>Total products</h3>
                                                     <span>40</span>
                                                 </div>
                                             </div>
@@ -222,7 +226,7 @@
                                             <div class="funfact_item" style="background-image: url('../adminDashbard/images/funfact_bg_3.png');" data-aos="fade-up" data-aos-duration="2000">
                                                 <div class="item_content">
                                                     <h3>Total money</h3>
-                                                    <span>$2600</span>
+                                                    <span>1500 JOD</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -364,48 +368,37 @@
 
                                 <div class="tab-pane fade" id="tab_products" role="tabpanel">
                                     <div class="trending_products">
-                                        <div class="search__container">
-                                            <p class="search__title">
-                                                Search for a course
-                                            </p>
-                                            <form action="" class="d-flex justify-content-center">
-                                                <input class="search__input" type="text" placeholder="Search">
-                                            </form>
-                                        </div>
-                                        <div class="vd_title_wrap">
-                                            <h3>All courses</h3>
-                                        </div>
+                                      
                                         <div class="vd_shadow p-0">
                                             <div class="vd_table table-responsive">
                                                 <table class="table table-striped">
                                                     <thead>
                                                         <tr>
-                                                            <th>Course Image</th>
-                                                            <th>Course Name</th>
-                                                            <th>Price</th>
-                                                            <th>Tutor</th>
-                                                            <th>Students enrolled</th>
+                                                            <th>Category Image</th>
+                                                            <th>Category ID</th>
+                                                            <th>Category Name</th>
                                                             <th>Edit/Delete</th>
+                                                            
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
                                                             <td>
                                                                 <div class="item_image">
-                                                                    <img src="./images/c++.png" alt="image_not_found">
+                                                                    <img src="../assets/img/materilas hd.webp" alt="image_not_found">
                                                                 </div>
                                                             </td>
                                                             <td>
-                                                                <h4 class="item_title"><a href="" class="text-dark text-decoration-underline">C++</a>
+                                                                <h4 class="item_title"><a href="" class="text-dark text-decoration-underline">1</a>
                                                                 </h4>
                                                             </td>
                                                             <td>
                                                                 <ul class="category_list ul_li">
-                                                                    <li>$15</li>
+                                                                    <li>Agriculture materials</li>
                                                                 </ul>
                                                             </td>
-                                                            <td><a href="" class="text-decoration-underline text-dark">Nooraldeen</a></td>
-                                                            <td><span>30</span></td>
+                                                          
+                                                           
                                                             <td>
                                                                 <ul class="btns_group ul_li">
                                                                     <li>
@@ -424,20 +417,19 @@
                                                         <tr>
                                                             <td>
                                                                 <div class="item_image">
-                                                                    <img src="./images/c++.png" alt="image_not_found">
+                                                                    <img src="../assets/img/slider hd.webp" alt="image_not_found">
                                                                 </div>
                                                             </td>
                                                             <td>
-                                                                <h4 class="item_title"><a href="" class="text-dark text-decoration-underline">C++</a>
+                                                                <h4 class="item_title"><a href="" class="text-dark text-decoration-underline">2</a>
                                                                 </h4>
                                                             </td>
                                                             <td>
                                                                 <ul class="category_list ul_li">
-                                                                    <li>$15</li>
+                                                                    <li>Agriculture tools</li>
                                                                 </ul>
                                                             </td>
-                                                            <td><a href="" class="text-decoration-underline text-dark">Nooraldeen</a></td>
-                                                            <td><span>30</span></td>
+                                                           
                                                             <td>
                                                                 <ul class="btns_group ul_li">
                                                                     <li>
@@ -456,20 +448,19 @@
                                                         <tr>
                                                             <td>
                                                                 <div class="item_image">
-                                                                    <img src="./images/c++.png" alt="image_not_found">
+                                                                    <img src="../assets/img/seed.jpg" alt="image_not_found">
                                                                 </div>
                                                             </td>
                                                             <td>
-                                                                <h4 class="item_title"><a href="" class="text-dark text-decoration-underline">C++</a>
+                                                                <h4 class="item_title"><a href="" class="text-dark text-decoration-underline">3</a>
                                                                 </h4>
                                                             </td>
                                                             <td>
                                                                 <ul class="category_list ul_li">
-                                                                    <li>$15</li>
+                                                                    <li>Seeds</li>
                                                                 </ul>
                                                             </td>
-                                                            <td><a href="" class="text-decoration-underline text-dark">Nooraldeen</a></td>
-                                                            <td><span>30</span></td>
+                                                        
                                                             <td>
                                                                 <ul class="btns_group ul_li">
                                                                     <li>
@@ -485,38 +476,7 @@
                                                                 </ul>
                                                             </td>
                                                         </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="item_image">
-                                                                    <img src="./images/c++.png" alt="image_not_found">
-                                                                </div>
-                                                            </td>
-                                                            <td>
-                                                                <h4 class="item_title"><a href="" class="text-dark text-decoration-underline">C++</a>
-                                                                </h4>
-                                                            </td>
-                                                            <td>
-                                                                <ul class="category_list ul_li">
-                                                                    <li>$15</li>
-                                                                </ul>
-                                                            </td>
-                                                            <td><a href="" class="text-dark text-decoration-underline text-dark">Nooraldeen</a></td>
-                                                            <td><span>30</span></td>
-                                                            <td>
-                                                                <ul class="btns_group ul_li">
-                                                                    <li>
-                                                                        <button type="button" class="bg_green">
-                                                                            <i class="fas fa-edit"></i>
-                                                                        </button>
-                                                                    </li>
-                                                                    <li>
-                                                                        <button type="button" class="bg_orange">
-                                                                            <i class="fas fa-trash-alt"></i>
-                                                                        </button>
-                                                                    </li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
+                                                   
                                                     </tbody>
                                                 </table>
                                             </div>
@@ -526,44 +486,44 @@
 
                                 <div class="tab-pane fade" id="tab_orders" role="tabpanel">
                                     <div class="recent_orders">
-                                    <div class="search__container">
-                                            <p class="search__title">
-                                                Search for a User
-                                            </p>
-                                            <form action="" class="d-flex justify-content-center">
-                                                <input class="search__input" type="text" placeholder="Search">
-                                            </form>
-                                        </div>
-                                        <div class="vd_title_wrap">
-                                            <h3>Users</h3>
-                                        </div>
+                                    
+                                        
                                         <div class="vd_shadow p-0">
                                             <div class="vd_table table-responsive">
                                                 <table class="table table-striped">
                                                     <thead>
                                                         <tr>
-                                                            <th>Email</th>
-                                                            <th>Full name</th>
-                                                            <th>Role</th>
-                                                            <th>Subscription</th>
-                                                            <th>Subscription times</th>
-                                                            <th>Subscription status</th>
-                                                            <th>Ban</th>
+                                                            <th>User image</th>
+                                                            <th>User Id</th>
+                                                            <th>Name</th>
+                                                            <th>Username</th>
+                                                            <th>User email</th>
+                                                            <th>User phone</th>
+                                                            <th>Edit/Delete</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <td><span>noor.feraas@gmail.com</span></td>
-                                                            <td><span>Noroaldeen Aloudat</span></td>
-                                                            <td><span>Student</span></td>
-                                                            <td><span>UniMaster</span></td>
-                                                            <td><span>3</span></td>
-                                                            <td><span class="status_btn bg_green">Subscribed</span></td>
+                                                            <td>
+                                                                <div class="item_image">
+                                                                    <img src="../assets/img/avaters/mohammad 2.jpg" alt="image_not_found">
+                                                                </div>
+                                                            </td>
+                                                            <td><span>1</span></td>
+                                                            <td><span>Mohammad</span></td>
+                                                            <td><span>Mohammadghzawi</span></td>
+                                                            <td><span>mohammad@gmail.com</span></td>
+                                                            <td><span>0797060670</span></td>
                                                             <td>
                                                                 <ul class="btns_group ul_li">
                                                                     <li>
+                                                                        <button type="button" class="bg_green">
+                                                                            <i class="fas fa-edit"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
                                                                         <button type="button" class="bg_orange">
-                                                                        <i class="fa-solid fa-ban" style="color: white;"></i>
+                                                                            <i class="fas fa-trash-alt"></i>
                                                                         </button>
                                                                     </li>
                                                                 </ul>
@@ -571,73 +531,36 @@
                                                             
                                                         </tr>
                                                         <tr>
-                                                            <td><span>noor.feraas@gmail.com</span></td>
-                                                            <td><span>Noroaldeen Aloudat</span></td>
-                                                            <td><span>Student</span></td>
-                                                            <td><span>UniMaster</span></td>
-                                                            <td><span>3</span></td>
-                                                            <td><span class="status_btn bg_green">Subscribed</span></td>
+                                                            <td>
+                                                                
+                                                                    <div class="item_image">
+                                                                        <img src="../assets/img/avaters/MOHAMMAD11.jpg" alt="image_not_found">
+                                                                    </div>
+                                                                
+                                                            </td>
+                                                            <td><span>1</span></td>
+                                                            <td><span>Mohammad</span></td>
+                                                            <td><span>Ghzawi</span></td>
+                                                            <td><span>moh@gmail.com</span></td>
+                                                            <td><span>0797060670</span></td>
                                                             <td>
                                                                 <ul class="btns_group ul_li">
                                                                     <li>
+                                                                        <button type="button" class="bg_green">
+                                                                            <i class="fas fa-edit"></i>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
                                                                         <button type="button" class="bg_orange">
-                                                                        <i class="fa-solid fa-ban" style="color: white;"></i>
+                                                                            <i class="fas fa-trash-alt"></i>
                                                                         </button>
                                                                     </li>
                                                                 </ul>
                                                             </td>
                                                         </tr>
-                                                        <tr>
-                                                            <td><span>noor.feraas@gmail.com</span></td>
-                                                            <td><span>Noroaldeen Aloudat</span></td>
-                                                            <td><span>Student</span></td>
-                                                            <td><span>UniMaster</span></td>
-                                                            <td><span>3</span></td>
-                                                            <td><span class="status_btn bg_green">Subscribed</span></td>
-                                                            <td>
-                                                                <ul class="btns_group ul_li">
-                                                                    <li>
-                                                                        <button type="button" class="bg_orange">
-                                                                        <i class="fa-solid fa-ban" style="color: white;"></i>
-                                                                        </button>
-                                                                    </li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><span>noor.feraas@gmail.com</span></td>
-                                                            <td><span>Noroaldeen Aloudat</span></td>
-                                                            <td><span>Student</span></td>
-                                                            <td><span>UniMaster</span></td>
-                                                            <td><span>3</span></td>
-                                                            <td><span class="status_btn bg_green">Subscribed</span></td>
-                                                            <td>
-                                                                <ul class="btns_group ul_li">
-                                                                    <li>
-                                                                        <button type="button" class="bg_orange">
-                                                                        <i class="fa-solid fa-ban" style="color: white;"></i>
-                                                                        </button>
-                                                                    </li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><span>noor.feraas@gmail.com</span></td>
-                                                            <td><span>Noroaldeen Aloudat</span></td>
-                                                            <td><span>Student</span></td>
-                                                            <td><span>UniMaster</span></td>
-                                                            <td><span>3</span></td>
-                                                            <td><span class="status_btn bg_green">Subscribed</span></td>
-                                                            <td>
-                                                                <ul class="btns_group ul_li">
-                                                                    <li>
-                                                                        <button type="button" class="bg_orange">
-                                                                        <i class="fa-solid fa-ban" style="color: white;"></i>
-                                                                        </button>
-                                                                    </li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
+                                                   
+                                                        
+                                                        
                                                     </tbody>
                                                 </table>
                                             </div>
@@ -647,56 +570,33 @@
 
                                 <div class="tab-pane fade" id="tab_profile" role="tabpanel">
                                     <div class="profile_table">
-                                        <div class="vd_title_wrap">
-                                            <h3>Profile</h3>
-
-                                        </div>
+      
                                         <div class="vd_shadow p-0">
                                             <div class="vd_table table-responsive">
                                                 <table class="table table-striped">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Profile</th>
-                                                            <th>Edit</th>
-                                                        </tr>
-                                                    </thead>
+                                                 
                                                     <tbody>
                                                         <tr>
-                                                            <td><span><strong>Company Name</strong></span></td>
-                                                            <td><span>Fashion Store</span></td>
+                                                            <td><span><strong>Admin First Name</strong></span></td>
+                                                            <td><span>Mohammad</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span><strong>Admin Last Name</strong></span></td>
+                                                            <td><span>alghzawi</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span><strong>Admin Username</strong></span></td>
+                                                            <td><span>Mohammad</span></td>
                                                         </tr>
                                                         <tr>
                                                             <td><span><strong>Email Address</strong></span></td>
-                                                            <td><span>Mark.Enderess@Mail.Com</span></td>
+                                                            <td><span>organic.admin@gmail.com</span></td>
                                                         </tr>
                                                         <tr>
-                                                            <td><span><strong>Country/Region</strong></span></td>
-                                                            <td><span>Downers Grove, IL</span></td>
+                                                            <td><span><strong>Reset Password</strong></span></td>
+                                                            <td><button style="background-color: orange; border: 1px solid orange; border-radius: 5px;">Reset password</button></td>
                                                         </tr>
-                                                        <tr>
-                                                            <td><span><strong>Year Established</strong></span></td>
-                                                            <td><span>2018</span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><span><strong>Total Employees</strong></span></td>
-                                                            <td><span>101 - 200 People</span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><span><strong>Category</strong></span></td>
-                                                            <td><span>Clothing</span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><span><strong>Street Address</strong></span></td>
-                                                            <td><span>549 Sulphur Springs Road</span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><span><strong>City/State</strong></span></td>
-                                                            <td><span>Downers Grove, IL</span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><span><strong>Zip</strong></span></td>
-                                                            <td><span>60515</span></td>
-                                                        </tr>
+                                                   
                                                     </tbody>
                                                 </table>
                                             </div>
@@ -704,7 +604,7 @@
                                     </div>
                                 </div>
 
-                                <div class="tab-pane fade" id="tab_settings" role="tabpanel">
+                                <!-- <div class="tab-pane fade" id="tab_settings" role="tabpanel">
                                     <div class="vd_shadow p-0">
                                         <div class="vd_account_settings">
                                             <h3 class="wrap_title">Notifications</h3>
@@ -803,7 +703,7 @@
                                             </form>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>

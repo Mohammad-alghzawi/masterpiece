@@ -642,7 +642,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   /* background-color: #07212e; */
   z-index: -1;
   /* opacity: 0.8; */
-  background-image: url(../img/check\ 3.jpg);
+  background-image: url(../img/checkout123.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -920,6 +920,7 @@ nav.main-menu li a {
   background-color: #F28123;
   border-radius: 10px;
   color: white;
+  border-color: #F28123;
 }
 .button-nav:hover{
   background-color: black;
@@ -2908,6 +2909,7 @@ tr.total-data td strong {
   padding: 15px;
   width: 100%;
   border-radius: 3px;
+  margin-top: 10px;
 }
 
 .billing-address-form form p textarea {
@@ -3001,4 +3003,81 @@ table.order-details tbody td {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+
+
+
+.card {
+    max-width: 500px;
+    margin: auto;
+    color: black;
+    border-radius: 20 px;
+}
+
+p {
+    margin: 0px;
+}
+
+.container .h8 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.btn.btn-primary {
+  width: 70%;
+  height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    background-image: linear-gradient(to right,rgb(242, 129, 35) 0%, rgb(242 128 35 / 38%) 51%, rgb(242 128 35 / 97%) 100%);;
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+
+}
+
+
+.btn.btn.btn-primary:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+
+
+.btn.btn-primary:hover .fas.fa-arrow-right {
+    transform: translate(15px);
+    transition: transform 0.2s ease-in;
+}
+
+.form-control {
+    color: white;
+    background-color: #223c60e3;
+    border: 2px solid transparent;
+    height: 60px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: #0C4160;
+    border: 2px solid #2d4dda;
+    box-shadow: none;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-weight: 600;
 }

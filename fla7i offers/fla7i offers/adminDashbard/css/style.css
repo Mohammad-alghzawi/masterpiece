@@ -1,5 +1,5 @@
-/* dashboard - start */
 
+  /* dashboard - start */
   .vendor_dashboard_section.bg_gray {
     background-color: #f8f9ff;
   }
@@ -18,7 +18,6 @@
     background-color: #ffffff;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.02);
             box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.02);
-        
   }
   .vd_tab_area .vd_space {
     padding: 35px;
@@ -33,7 +32,7 @@
     margin-bottom: 20px;
   }
   .vd_tab_area .vd_mail a {
-    color: #81c408;
+    color: var(--second-color);
   }
   .vd_tab_area .vd_mail a:hover {
     color: #81c408;
@@ -70,8 +69,15 @@
     width: 144px;
     height: 144px;
     overflow: hidden;
-    border-radius: 100%;
+    border-radius: 100%;background-image: url(../images/mohammad\ 2.jpg);
+    background-position: center;
+    background-size: cover;
   }
+
+  .vd_info_wrap {
+    margin-top: 78px;
+  }
+  
   .vd_image .edit_btn {
     top: 0;
     right: 0;
@@ -121,6 +127,7 @@
   .vd_btns_group > li {
     padding: 10px;
   }
+
   .vd_btns_group .select_option .nice-select {
     height: 46px;
     font-size: 16px;
@@ -154,7 +161,7 @@
     margin-bottom: 0;
   }
   .vd_title_wrap .select_option {
-    border: 1px solid #81c408;
+    border: 1px solid var(--second-color);
     border-radius: 50px;
   }
   .vd_title_wrap .select_option .nice-select {
@@ -205,11 +212,8 @@
   .vd_table td {
     padding: 12px 10px;
   }
-  .vd_table .item_image {
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
-    border-radius: 100%;
+  .vd_table .item_image img {
+      width: 150px;
   }
   .vd_table .item_title {
     font-size: 15px;
@@ -427,9 +431,8 @@
   }
   
   .breadcrumb_title h2 {
-    font-size: 30px;
+    font-size: 52px;
     font-weight: 700;
-    margin-top: 60px;
   }
   
   .breadcrumb_item li {
@@ -462,7 +465,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: #ffffff;
+    color: black;
     padding: 44px 44px;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -474,6 +477,10 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    background-color: #0000000d;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
   .funfact_item .item_icon {
     -webkit-box-ordinal-group: 14;
@@ -493,7 +500,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #ffffff;
+    background-color: #ddd;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
             box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
   }
@@ -502,7 +509,7 @@
   }
   .funfact_item h3 {
     line-height: 1;
-    color: #ffffff;
+    color: black;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 10px;

@@ -1690,8 +1690,9 @@ input[type="submit"] {
   font-size: 15px;
   border: none !important;
   cursor: pointer;
-  padding: 15px 25px;
+  padding: 11px 25px;
   border-radius: 3px;
+  margin-top: 5px;
 }
 
 .homepage-bg-1 {
@@ -2803,7 +2804,7 @@ tr.table-head-row th:last-child {
 }
 
 td.product-image img {
-  max-width: 50px;
+  max-width: 60px;
   -webkit-box-shadow: none;
   box-shadow: none;
   margin-bottom: 0;
